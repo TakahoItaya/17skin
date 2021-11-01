@@ -1,0 +1,699 @@
+@charset "UTF-8";
+main {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.cmn-title p {
+  font-size: 24px;
+  border-bottom: 2px solid red;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+@media print, screen and (max-width: 1000px) {
+  .cmn-title p {
+    width: 800px;
+  }
+}
+
+@media print, screen and (max-width: 800px) {
+  .cmn-title p {
+    width: 600px;
+  }
+}
+
+@media print, screen and (max-width: 600px) {
+  .cmn-title p {
+    width: 400px;
+  }
+}
+
+@media print, screen and (max-width: 400px) {
+  .cmn-title p {
+    width: 300px;
+    font-size: 14px;
+    border-bottom: 1px solid red;
+  }
+}
+
+.cmn-step {
+  font-size: 24px;
+  border-left: 2px solid red;
+  padding-left: 10px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media print, screen and (max-width: 400px) {
+  .cmn-step {
+    font-size: 18px;
+  }
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media print, screen and (max-width: 400px) {
+  .footer {
+    margin-top: 30px;
+  }
+}
+
+@media print, screen and (max-width: 400px) {
+  .footer .copyright {
+    font-size: 14px;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .my-story {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.my-story .box {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.my-story .box p {
+  text-align: center;
+}
+
+@media print, screen and (max-width: 500px) {
+  .my-story .box p {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+
+.my-story .dots {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-story .red a {
+  color: #e74c3c;
+}
+
+.my-story .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  text-align: center;
+}
+
+@media print, screen and (max-width: 400px) {
+  .my-story .underline {
+    font-size: 12px;
+  }
+}
+
+.my-story .cosme-picture {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.my-story .cosme-picture img {
+  width: 400px;
+}
+
+.my-story .buy-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .my-story .buy-image {
+    margin-top: 30px;
+  }
+}
+
+.my-story .buy-image img {
+  width: 400px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .my-story .sp {
+    display: none;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+@media print, screen and (max-width: 500px) {
+  .title {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.title p {
+  margin-top: 100px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 500px) {
+  .title p {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+}
+
+.title .title-image {
+  margin-top: 50px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .flow {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.flow .box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .flow .box p {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: left;
+  }
+}
+
+.flow .red {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.flow .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  text-align: center;
+}
+
+.flow .content-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.flow .content-image img {
+  width: 500px;
+}
+
+.flow .ekidare-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.flow .ekidare-image img {
+  width: 500px;
+}
+
+.flow .content {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: lightgrey;
+  width: 350px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .flow .content p {
+    font-size: 12px;
+  }
+}
+
+.flow .step1-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.flow .step2-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.flow .step3-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.flow .step4-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .flow .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .feature {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.feature .box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .feature .box {
+    text-align: left;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .feature .box p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
+
+.feature .arrow {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.feature .red {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.feature .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  text-align: center;
+}
+
+.feature .beauty {
+  text-align: center;
+  margin-top: 40px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature .beauty p {
+  font-size: 24px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .feature .beauty p {
+    font-size: 18px;
+  }
+}
+
+.feature .ekisu-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.feature .ekisu-image img {
+  width: 600px;
+}
+
+.feature .component-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.feature .component-image img {
+  width: 1000px;
+}
+
+.feature .comparison-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.feature .comparison-image img {
+  width: 650px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .feature .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .credibility {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.credibility .box {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .credibility .box {
+    text-align: left;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .credibility .box p {
+    font-size: 12px;
+  }
+}
+
+.credibility .arrow {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.credibility .red {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.credibility .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  text-align: center;
+}
+
+.credibility .doctor-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.credibility .doctor-image img {
+  width: 500px;
+}
+
+.credibility .background-image {
+  text-align: center;
+}
+
+.credibility .background-image img {
+  width: 1000px;
+}
+
+.credibility .influencer .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.credibility .influencer .influencer01 img {
+  width: 350px;
+}
+
+.credibility .influencer .influencer02 img {
+  width: 350px;
+}
+
+.credibility .influencer .influencer03 img {
+  width: 350px;
+}
+
+.credibility .magazine-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.credibility .magazine-image img {
+  width: 900px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .credibility .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .word-of-mouth {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.word-of-mouth .box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .word-of-mouth .box {
+    text-align: left;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .word-of-mouth .box p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
+
+.word-of-mouth .arrow {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.word-of-mouth .red {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.word-of-mouth .text {
+  background-color: lightgrey;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .word-of-mouth .text {
+    width: initial;
+    padding: 10px;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .word-of-mouth .text p {
+    font-size: 10px;
+  }
+}
+
+.word-of-mouth .comment-image01 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.word-of-mouth .comment-image01 img {
+  width: 350px;
+}
+
+.word-of-mouth .comment-image02 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.word-of-mouth .comment-image02 img {
+  width: 500px;
+}
+
+.word-of-mouth .satisfaction-image {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.word-of-mouth .satisfaction-image img {
+  width: 800px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .word-of-mouth .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .price {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.price .box {
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .price .box {
+    text-align: left;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .price .box p {
+    font-size: 12px;
+  }
+}
+
+.price .red {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.price .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  text-align: center;
+}
+
+.future {
+  height: 1050px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .future {
+    height: 800px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.future .box {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .future .box {
+    text-align: left;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .future .box p {
+    font-size: 12px;
+  }
+}
+
+.future .box .red {
+  color: red;
+  font-size: 20px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .future .box .red {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.future .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  text-align: center;
+}
+
+.future .bold {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+}
+
+@media print, screen and (max-width: 500px) {
+  .future .bold {
+    font-size: 14px;
+  }
+}
+
+.future .confidence-image {
+  text-align: center;
+}
+
+.future .btn {
+  text-align: center;
+}
+
+.future .btn a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #e74c3c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 100vh;
+  font-size: 30px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .future .btn a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
